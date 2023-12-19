@@ -1,5 +1,7 @@
 # app/models/user.rb
 class User < ApplicationRecord
-  has_many :entities
-  has_and_belongs_to_many :groups
+  has_many :entities, foreign_key: 'author_id'
+  has_many :groups
+
+  validates :name, presence: true
 end
