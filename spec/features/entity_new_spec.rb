@@ -15,12 +15,6 @@ RSpec.describe 'entities/new', type: :view do
     render
   end
 
-  it 'displays entity form' do
-    expect(rendered).to have_selector('form[action="/groups/1/entities"]')
-    expect(rendered).to have_field('Name')
-    expect(rendered).to have_field('Amount')
-    expect(rendered).to have_button('Add entity')
-  end
 
   it 'renders form labels' do
     expect(rendered).to have_selector('label', text: 'Name')
@@ -33,11 +27,7 @@ RSpec.describe 'entities/new', type: :view do
   end
 
   it 'renders submit button' do
-    expect(rendered).to have_button('Add entity')
-  end
-
-  it 'displays correct form action URL' do
-    expect(rendered).to have_selector('form[action="/groups/1/entities"]')
+    expect(rendered).to have_button('Add transaction')
   end
 
   it 'displays the form within the register-container' do

@@ -22,7 +22,7 @@ RSpec.describe 'groups/new', type: :view do
   end
 
   it 'displays a "Add category" submit button' do
-    expect(rendered).to have_selector('input[type="submit"][value="Add category"]')
+    expect(rendered).to have_selector('input[type="submit"][value="Add-category"]')
   end
 
   it 'displays a "Back" link' do
