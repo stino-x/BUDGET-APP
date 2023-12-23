@@ -15,7 +15,6 @@ RSpec.describe 'entities/new', type: :view do
     render
   end
 
-
   it 'renders form labels' do
     expect(rendered).to have_selector('label', text: 'Name')
     expect(rendered).to have_selector('label', text: 'Amount')
