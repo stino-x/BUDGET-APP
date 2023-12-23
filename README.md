@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]() IF YOU ARE REVIEWING THIS I CANT DEPLOY MY WORK CAUSE I DONT KNOW HOW TO COULD YOU PLEASE HELP ME WITH INSTRUCTONS OR PLAYBY PLAY? THANKS!!- [Video Documentation](https://www.loom.com/share/e8b880927021464c85eea4e8813099ca?sid=c02f61e8-a033-4c45-bf32-ff4ef1ddc891)
+- [Live Demo Link]() IF YOU ARE REVIEWING THIS I CANT DEPLOY MY WORK CAUSE I DONT KNOW HOW TO COULD YOU PLEASE HELP ME WITH INSTRUCTONS OR PLAYBY PLAY? THANKS!!- [Video Documentation](https://www.loom.com/share/727e92f38770461c9faaaecf61df961a?sid=95f9b826-8cdf-4e1b-92fb-fe023f13860f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
