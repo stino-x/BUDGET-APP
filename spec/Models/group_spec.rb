@@ -19,7 +19,10 @@ RSpec.describe Group, type: :model do
   end
 
   it 'has many entities through entity_groups' do
-    user = User.create(name: 'John Doe')
+    # Create a valid user
+    user = User.create(name: 'John Doe', email: 'john@example.com', password: 'password')
+
+    # Create a group associated with the user
     group = Group.create(name: 'My Group', user:)
 
     # Create an entity and associate it with the group
