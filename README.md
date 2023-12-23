@@ -94,7 +94,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-https://github.com/Booze33/budget-app.git
+https://github.com/stino-x/BUDGET-APP.git
 ```
 
 ### Install
