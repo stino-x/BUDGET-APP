@@ -3,23 +3,29 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  it 'should save user with valid attributes' do
+  it 'is valid with valid attributes' do
     user = User.new(name: 'John Doe')
-    expect(user.save).to be_truthy
+    expect(user.valid?).to be_truthy
   end
 
-  it 'should not save user without a name' do
-    user = User.new
-    expect(user.save).to be_falsey
+  it 'is not valid without a name' do
+    user = User.new(name: nil)
+    expect(user.valid?).to be_falsey
   end
 
-  it 'should have many entities' do
+  it 'has many entities' do
     user = User.new(name: 'John Doe')
-    expect(user).to respond_to(:entities)
+    # Assuming you have an Entity model
+    entity = Entity.new(name: 'Expense', amount: 50.0, author: user)
+    user.entities << entity
+    expect(user.entities).to include(entity)
   end
 
-  it 'should have and belong to many groups' do
+  it 'has many groups' do
     user = User.new(name: 'John Doe')
-    expect(user).to respond_to(:groups)
+    # Assuming you have a Group model
+    group = Group.new(name: 'My Group', user:)
+    user.groups << group
+    expect(user.groups).to include(group)
   end
 end
