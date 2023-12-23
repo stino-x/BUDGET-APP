@@ -24,7 +24,8 @@
 # 📖 Budget App <a name="about-project"></a>
 
 **Budget App** is a Ruby on Rails project designed to help you monitor you spending habits. Go ahead and sign up to start organizing your transactions, monitoring your total spend and keeping track of your budget.
-![image](https://github.com/Booze33/budget-app/assets/99689722/89631a5b-54ea-419d-8c7c-48b12701dc76)
+![image](https://github.com/stino-x/BUDGET-APP/assets/107426247/411fdc51-91ca-4a23-8c8e-21ff46a4af29)
+)
 
 ## 🛠 Built With <a name="built-with"></a>
 
